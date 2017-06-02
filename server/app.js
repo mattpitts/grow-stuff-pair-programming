@@ -25,7 +25,7 @@ const maturationPackages = [{
 }];
 
 
-app.get('/facts', (request, response) => {
+app.get('/info', (request, response) => {
 	response.json(maturationPackages);
 });
 

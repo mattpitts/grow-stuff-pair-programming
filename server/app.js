@@ -7,13 +7,9 @@ const app = express();
 app.use(cors());
 
 const maturationPackages = [{
-	name: "Toddler to Teen",
+	name: "Toddler to Teenager",
 	price: "$5000",
 	description: "Does your kid still lack conversational skills. For a small fee we can mature it to a point where you can discuss basic global issues."
-}, {
-	name: "Newborn to Adult",
-	price: "$12000",
-	description: "Think you made a mistake? Not cut out for parenting? For a small fee you can skip the hard part of being a parent and go straight to having a young professional to call your own."
 }, {
 	name: "Tween to High School Senior",
 	price: "$8000",
@@ -22,6 +18,10 @@ const maturationPackages = [{
 	name: "Kindergartner to College Grad",
 	price: "$10000",
 	description: "So you enjoyed having a baby, but now you just want it out of the house? This package is for you."
+}, {
+	name: "Newborn to Adult",
+	price: "$12000",
+	description: "Think you made a mistake? Not cut out for parenting? For a small fee you can skip the hard part of being a parent and go straight to having a young professional to call your own."
 }];
 
 
